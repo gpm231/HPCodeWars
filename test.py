@@ -1,5 +1,4 @@
-import math
+a = 50
 
-a = 24
-
-print(math.log10(24))
+for i in range(50):
+    print(i)
