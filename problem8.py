@@ -47,9 +47,4 @@ else:
         print(names[0] + " won the match " + str(sets_team1) + " - " + str(sets_team2) + ".")
 
     else:
-        print(names[2] + " won the match " + str(sets_team2) + " - " + str(sets_team1) + ".")
-
-
-
-
-
+        print(names[2] + " won the match " + str(sets_team1) + " - " + str(sets_team2) + ".")
