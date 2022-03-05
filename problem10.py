@@ -25,7 +25,7 @@ elif sendOrReceive == "R":
         print("<<< URGENT >>>")
 
     print("From: " + data[0])
-    print("From rank " + data[1])
+    print("From rank: " + data[1])
     print("To: " + data[2])
     print("To rank: " + data[3])
     print("Content: " + data[4])
