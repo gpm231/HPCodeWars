@@ -1,1 +1,5 @@
-print(130%4)
+horas = [5, 3]
+
+for v in horas:
+    indice = horas.index(v)
+    valor = v
