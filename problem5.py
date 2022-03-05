@@ -1,5 +1,3 @@
-import math
-
 numberOfPoints = int(input())
 
 points = []
