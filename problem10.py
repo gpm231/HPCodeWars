@@ -24,9 +24,11 @@ elif sendOrReceive == "R":
     if priorities.index(data[3]) > priorities.index(data[1]):
         print("<<< URGENT >>>")
 
-    print("From: " + data[0])
-    print("From rank: " + data[1])
-    print("To: " + data[2])
-    print("To rank: " + data[3])
-    print("Content: " + data[4])
-    print("Timestamp: " + data[5])
+        print("From: " + data[0])
+        print("From rank: " + data[1])
+        print("To: " + data[2])
+        print("To rank: " + data[3])
+        print("Content: " + data[4])
+        print("Timestamp: " + data[5])
+else:
+    print("Invalid input.")
