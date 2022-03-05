@@ -7,9 +7,6 @@ scores1=score_set1.split()
 score_set2=str(input())
 scores2=score_set2.split()
 
-#score_set3=str(input())
-#scores3=score_set3.split()
-
 sets_team1 = 0
 sets_team2 = 0
 
@@ -39,11 +36,11 @@ if sets_team1==sets_team2:
 
     if score3_team1 > score3_team2:
         sets_team1=sets_team1 + 1
-        print(names[0] + " won the match " + str(sets_team1) + " - " + str(sets_team2) + ".")
+        print(names[0] + " " + names[1] + " won the match " + str(sets_team1) + " - " + str(sets_team2) + ".")
 
     else:
         sets_team2=sets_team2 + 1
-        print(names[2] + " won the match " + str(sets_team2) + " - " + str(sets_team1) + ".")
+        print(names[3] + " won the match " + str(sets_team2) + " - " + str(sets_team1) + ".")
 
 else:
     if sets_team1 > sets_team2:
