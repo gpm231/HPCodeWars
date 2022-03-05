@@ -1,5 +1,5 @@
-a = [1, 2]
+import math
 
-b = [4, 4]
+a = 24
 
-print(a-b)
+print(math.log10(24))
